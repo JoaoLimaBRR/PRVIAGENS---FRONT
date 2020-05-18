@@ -1,0 +1,105 @@
+<!-- incio do formulario para contato -->
+
+    
+        <div id="box_contato" class="container">
+            <div class="mb-5">
+                <div class="container-fluid" id="imagemContato">
+                    <div class="row" >
+                        <div class="col-md-12 ">
+            
+                        </div>
+                    </div>
+                </div>  
+            
+                <div class="container-fluid" id="faleConosco">
+                    <div class="row" id="titulo" >
+                        <div class="col-md-12">
+                            <h2>
+                                <strong>Entre em contato:</strong>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row" id="linhaContato" id="subtitulo">
+                        <div class="col-md-12">
+                            <p>Utilize o formulario abaixo para entrar em contato conosco, enviar depoimento, criticas e sugestões:
+                            </p>
+                        </div> 
+            
+                    </div> 
+                </div>
+            
+                <div id="formContato">        
+            
+                    <div class="row d-flex justify-content-center p-padrao">
+                        <div class="form-group col-md-4">
+                            <label for="text" class="required dados">Nome</label><br>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                            
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="text" class="required dados">Sobrenome</label>
+                            <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome">
+                           
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-4">
+                                <label for="E-mail" class="required dados">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="prviagens@gmail.com">
+                                
+                            </div>
+            
+                            <div class="col-md-4">
+                                <label for="inputFone" class="control-label" class="required dados">Telefone</label>
+                                <input type="tel" class="form-control phone-ddd-mask" id="telefone" maxlength="15"
+                                    placeholder="(65) 91811-5159" name="contact[telephone]" id="telefone_contato"  restrict-input="^[0-9-]*$">
+                                <div class="help-block with-errors"></div>
+                               
+                            </div> 
+            
+                        </div>
+                    </div>
+             
+                    <div class="form-group ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-4">
+                                <label for="input" class="required dados">Tipo de contato</label>
+                                <select id="tipoReclamacao" class="form-control">
+                                    <option>Sugestões</option>
+                                    <option>Elogios</option>
+                                    <option>Dúvidas</option>
+                                    <option>Reclamações</option>
+                                </select>
+                                
+                            </div>
+                            <div class="col-md-4">
+                                <label for="input" required class="required dados">Assunto</label>
+                                <input type="text" id="assunto" class="form-control" placeholder="Assunto da mensagem">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-8">
+                                <label for="exampleFormControlTextarea1" class="required dados">Digite sua mensagem</label>
+                                <textarea class="form-control" id="textarea" rows="3" ></textarea>
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                    <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <button type="submit" id="btnEnviarContato" class="btn btn-success"
+                                    >Enviar</button>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                
+            </div>
+            </div>
+        </div>

@@ -1,0 +1,135 @@
+<div id="container" class="container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a [routerLink]="'/resorts'" target="_blank">
+        <img  src="../../assets/img/img1.jpeg" alt="Primeiro Slide">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a [routerLink]="'/hoteis'" target="_blank">
+        <img  src="../../assets/img/img2.jpeg" alt="Segundo Slide">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a [routerLink]="'/cruzeiros'" target="_blank">
+        <img  src="../../assets/img/img3.jpeg" alt="Terceiro Slide">
+      </a>
+      </div>
+      <div class="carousel-item">
+        <a [routerLink]="'/pacotes'" target="_blank">
+        <img  src="../../assets/img/img4.jpeg" alt="Quarto Slide">
+      </a>
+      </div>
+      <div class="carousel-item">
+        <a [routerLink]="'/carros'" target="_blank">
+        <img  src="../../assets/img/img5.jpeg" alt="Quinto Slide">
+      </a>
+      </div>
+      <div class="carousel-item">
+        <a [routerLink]="'/dicas'" target="_blank">
+        <img  src="../../assets/img/img6.jpeg" alt="Sexto Slide">
+      </a>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+</div>
+
+
+  <div id="container2" class="container">
+    <div class="row">
+        <div class="col-md12 mt-5 mb-4">
+            <h3 class="display-5 font-family: Helvetica;">Hotéis, Pacotes e Resorts pelo melhor preço: </h3>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4 col-lg-4 mt-4 col-sm-12 mb-4">
+
+            <div class="card border-0 shadow">
+                <img class="card-img-top" src="../../assets/img/cardHotal.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title font-family: Helvetica;">Hotéis</h5>
+                    <p class="card-text font-family: Helvetica;">Clique aqui e saiba mais sobre Hotéis e promoções disponíveis.</p>
+                    <a [routerLink]="'/hoteis'"  class="btn btn-primary">Saiba mais.</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4 col-lg-4 mt-4 mb-4 col-sm-12">
+
+            <div class="card border-0 shadow">
+                <img class="card-img-top" src="../../assets/img/cardPacotes.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title font-family: Helvetica;">Pacotes</h5>
+                    <p class="card-text font-family: Helvetica;">Clique aqui e saiba mais sobre Pacotes e promoções disponíveis.</p>
+                    <a [routerLink]="'/pacotes'"  class="btn btn-primary">Saiba mais.</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-4 col-lg-4 mt-4 mb-5 col-sm-12">
+
+            <div class="card border-0 shadow">
+                <img class="card-img-top" src="../../assets/img/cardResort.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title font-family: Helvetica;">Resorts</h5>
+                    <p class="card-text font-family: Helvetica;">Clique aqui e saiba mais sobre Resorts e promoções disponíveis.
+                    </p>
+                    <a [routerLink]="'/resorts'"  class="btn btn-primary font-family: Helvetica;">Saiba mais.</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-md12 mt-5 mb-4">
+                  <h3 class="display-5">Carros, Cruzeiros e Dicas de Viagens: </h3>
+              </div>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-4 col-lg-4 mt-4 col-sm-12 mb-4">
+      
+                  <div class="card border-0 shadow">
+                      <img class="card-img-top" src="../../assets/img/cardCarro.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title font-family: Helvetica;">Carros</h5>
+                          <p class="card-text">Clique aqui e saiba mais sobre alugueis de Carros e promoções disponíveis.</p>
+                          <a [routerLink]="'/carros'"  class="btn btn-primary font-family: Helvetica;">Saiba mais.</a>
+                      </div>
+                  </div>
+      
+              </div>
+              <div class="col-md-4 col-lg-4 mt-4 mb-4 col-sm-12">
+      
+                  <div class="card border-0 shadow">
+                      <img class="card-img-top" src="../../assets/img/carCruzeiro.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title font-family: Helvetica;">Cruzeiros</h5>
+                          <p class="card-text font-family: Helvetica;">Clique aqui e saiba mais sobre Cruzeiros e promoções disponíveis.</p>
+                          <a [routerLink]="'/cruzeiros'"  class="btn btn-primary font-family: Helvetica;">Saiba mais.</a>
+                      </div>
+                  </div>
+      
+      
+              </div>
+              <div class="col-md-4 col-lg-4 mt-4 mb-5 col-sm-12">
+      
+                  <div class="card border-0 shadow">
+                      <img class="card-img-top" src="../../assets/img/cardDicas.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title font-family: Helvetica;">Dicas de Viagens</h5>
+                          <p class="card-text font-family: Helvetica;">Clique aqui e veja algumas dicas de viegans que temos para você.
+                          </p>
+                          <a [routerLink]="'/dicas'"  class="btn btn-primary font-family: Helvetica;">Saiba mais.</a>
+                      </div>
+                  </div>
+              </div>
